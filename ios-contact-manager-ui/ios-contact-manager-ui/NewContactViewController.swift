@@ -56,7 +56,7 @@ extension NewContactViewController {
             invalidAlert(invalid: phoneNumberTextField)
             return
         }
-        saveAlert(Contact(name: name, phoneNumber: number, age: age))
+        showSaveAlert(Contact(name: name, phoneNumber: number, age: age))
     }
     
     private func showCancelAlert() {
